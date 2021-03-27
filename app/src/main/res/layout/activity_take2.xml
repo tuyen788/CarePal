@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorful_background"
+    tools:context=".take">
+
+    <ImageView
+        android:id="@+id/icon_logo"
+        android:layout_width="111dp"
+        android:layout_height="77dp"
+        android:src="@drawable/logo_final"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/refill_view"
+        android:layout_width="391dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:autoSizeTextType="uniform"
+        android:background="#0A5E0D"
+        android:text="Do you want to add a refill?"
+        android:textColor="@color/white"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <Button
+        android:id="@+id/ryes_button"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#0A5E0D"
+        android:text="Yes"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <Button
+        android:id="@+id/rno_button"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="134dp"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#0A5E0D"
+        android:text="No"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="240dp" />
+</RelativeLayout>

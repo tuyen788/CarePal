@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorful_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/icon_logo"
+        android:layout_width="111dp"
+        android:layout_height="77dp"
+        android:src="@drawable/logo_final"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/medicine_view"
+        android:layout_width="373dp"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:autoSizeTextType="uniform"
+        android:background="#0A5E0D"
+        android:text="Did you take your medicine?"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/yes_button"
+        android:layout_width="201dp"
+        android:layout_height="61dp"
+        android:layout_below="@id/medicine_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:backgroundTint="#0A5E0D"
+        android:text="Yes, I did" />
+
+    <Button
+        android:id="@+id/no_button"
+        android:layout_width="201dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#0A5E0D"
+        android:text="No, I didn't" />
+
+</RelativeLayout>

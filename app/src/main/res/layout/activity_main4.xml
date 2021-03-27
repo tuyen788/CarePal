@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/colorful_background"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/icon_logo"
+        android:layout_width="111dp"
+        android:layout_height="77dp"
+        android:src="@drawable/logo_final"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/kin1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter your Kin's Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/ddate1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter your last checkup date (MM/DD/YYYY)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.608"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/dname1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter your Doctor's Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.463"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/gender1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Gender(M/F/O)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.393"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/weight1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Weight(in lbs)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.321"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/height1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Height"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/age1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Age"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/name1"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.109"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/display1"
+        android:layout_width="264dp"
+        android:layout_height="40dp"
+        android:autoSizeTextType="uniform"
+        android:backgroundTint="#0A5E0D"
+        android:text="Display Current Information"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.914"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/saveinfo1"
+        android:layout_width="186dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#0A5E0D"
+        android:text="Save Information"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.470"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/update1"
+        android:layout_width="95dp"
+        android:layout_height="43dp"
+        android:backgroundTint="#0A5E0D"
+        android:text="Update"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.898"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/doc_num"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Doctor's Number"
+        android:inputType="phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <EditText
+        android:id="@+id/kin_num"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="312dp"
+        android:layout_height="38dp"
+        android:alpha="1"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter Kin's Number"
+        android:inputType="phone"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#070707"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.353"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

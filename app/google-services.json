@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "319632882452",
+    "firebase_url": "https://carepal-9ad9b.firebaseio.com",
+    "project_id": "carepal-9ad9b",
+    "storage_bucket": "carepal-9ad9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319632882452:android:15dcf48a46f4fb9aaf2001",
+        "android_client_info": {
+          "package_name": "com.example.carepal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319632882452-00hppo71nn2n2o77obeqpps600sft73k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCw-9nACNN4SQ4sJFsUM4TDSDuCP-ULsIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "319632882452-00hppo71nn2n2o77obeqpps600sft73k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

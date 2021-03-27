@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">CarePal</string>
+    <string name="BloodPressureTv">Blood Pressure</string>
+    <string name="BloodSugarTv">Blood Sugar</string>
+    <string name="CholesterolHDLTv">Cholesterol HDL</string>
+    <string name="TriglyceridesTv">Triglycerides</string>
+    <string name="MyConditionsBtn">My Conditions</string>
+    <string name="MaintainTipsBtn">Maintain Tips</string>
+    <string name="MainMenuBtn">Main Menu</string>
+    <string name="CholesterolLDLTv">Cholesterol LDL</string>
+    <string name="TypeNumHint">Type a number</string>
+    <string name="SaveBtn">Save</string>
+    <string name="okayBtn">Okay</string>
+    <string name="infoView">Information</string>
+    <string name="listBtn">See list of medications</string>
+    <string name="addBtn">Add a new medication</string>
+    <string name="deleteBtn">Delete a medication</string>
+    <string name="saveBtn">Save</string>
+    <string name="doctorTv">Doctor\'s name:</string>
+    <string name="mednameTv">Medication name:</string>
+    <string name="timeTv">Time:</string>
+    <string name="medhints">amoxicillin,etc.</string>
+    <string name="docnamehint">Doctor\'s name</string>
+    <string name="timehint">time to take it</string>
+    <string name="deleteOptionHint">Enter medication name</string>
+    <string name="deleteQuestion">Which medication do you want to delete?</string>
+    <string name="sdeleteBtn">Delete</string>
+    <string name="setAlarmBtn">Set Alarm</string>
+</resources>
